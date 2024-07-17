@@ -24,7 +24,7 @@ export const data = [
     id: 4,
     name: "Portfolio Creation",
     image: "Portfolio.png",
-    github: "",
+    github: "https://github.com/Sud-7/SJ-Technologies",
     live: "",
   },
 ];
