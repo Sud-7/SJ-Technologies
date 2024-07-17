@@ -4,6 +4,12 @@
 
 Welcome to my professional portfolio website! This application is built using ReactJS, JavaScript, and TailwindCSS to ensure a seamless and responsive user experience across all devices, including mobile phones. The design theme is dark mode, reflecting my personal preference for this aesthetic.
 
+# Live Demo
+![](https://github.com/Sud-7/SJ-Technologies/blob/master/public/Portfolio-ezgif.com-video-to-gif-converter.gif)
+
+# Responsive Demo
+![]()
+
 ## Features
 
 - **Responsive Design**: The application is fully responsive, ensuring optimal viewing and interaction on any device.
