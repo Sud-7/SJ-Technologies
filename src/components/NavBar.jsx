@@ -18,7 +18,7 @@ function NavBar() {
     <div className="flex justify-between w-full fixed h-[90px] items-center px-4 bg-[#0a192f] text-gray-300">
       <a href="https://sj-portfolio-tech.web.app/">
         <img
-          className="hover:scale-110"
+          className="hover:scale-110 duration-500"
           src="/Screenshot_2024-07-17_121205-removebg-preview2.png"
           style={{ width: "130px" }}
           alt="Logo"
