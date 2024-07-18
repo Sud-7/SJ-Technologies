@@ -16,34 +16,37 @@ function NavBar() {
   const handleClick = () => setNav(!nav);
   return (
     <div className="flex justify-between w-full fixed h-[90px] items-center px-4 bg-[#0a192f] text-gray-300">
-      <img
-        src="/Screenshot_2024-07-17_121205-removebg-preview2.png"
-        style={{ width: "130px" }}
-        alt="Logo"
-      />
+      <a href="https://sj-portfolio-tech.web.app/">
+        <img
+          className="hover:scale-110"
+          src="/Screenshot_2024-07-17_121205-removebg-preview2.png"
+          style={{ width: "130px" }}
+          alt="Logo"
+        />
+      </a>
       {/* menu bar for desktop */}
       <ul className="hidden md:flex">
-        <li>
+        <li className="hover:scale-[115%] duration-300">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className="hover:scale-[115%] duration-300">
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className="hover:scale-[115%] duration-300">
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className="hover:scale-[115%] duration-300">
           <Link to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li>
+        <li className="hover:scale-[115%] duration-300">
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
