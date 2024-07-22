@@ -29,7 +29,7 @@ export const data = [
   },{
     id: 5,
     name: "Skeleton Loader",
-    image: "Portfolio.png",
+    image: "Skeleton.png",
     github: "https://github.com/Sud-7/Skeleton-loader",
     live: "https://new-pro-442bd.web.app/",
   }
