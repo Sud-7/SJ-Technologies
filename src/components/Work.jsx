@@ -11,7 +11,7 @@ function Work() {
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
             Work
           </p>
-          <p className="py-6">// Check out some of my recent work</p>
+          <p className="py-6">Check out some of my recent work</p>
         </div>
 
         {/* container for projects */}
@@ -25,7 +25,7 @@ function Work() {
               flex justify-center text-center items-center mx-auto content-div "
             >
               {/* Hover effect for images */}
-              <div className="opacity-0 group-hover:opacity-100 ">
+              <div className="opacity-0 group-hover:opacity-100 duration-300">
                 <span className="text-2xl font bold text-white tracking-wider ">
                   {item.name}
                 </span>
