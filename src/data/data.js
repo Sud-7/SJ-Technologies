@@ -26,5 +26,11 @@ export const data = [
     image: "Portfolio.png",
     github: "https://github.com/Sud-7/SJ-Technologies",
     live: "https://sj-portfolio-tech.web.app/",
-  },
+  },{
+    id: 5,
+    name: "Skeleton Loader",
+    image: "Portfolio.png",
+    github: "https://github.com/Sud-7/Skeleton-loader",
+    live: "https://new-pro-442bd.web.app/",
+  }
 ];
