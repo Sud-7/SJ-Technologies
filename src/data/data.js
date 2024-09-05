@@ -1,36 +1,58 @@
 export const data = [
   {
     id: 1,
-    name: "French-Restaurant",
-    image: "/French.png",
-    github: "https://github.com/Sud-7/French-Restaurant",
-    live: "https://french-restaurant-7a157.web.app/",
+    name: "Zomato-clone",
+    image: "/Zomato.png",
+    github: "https://github.com/Sud-7/Zomato-clone-NextJS",
+    live: "https://zomato-clone-next-js.vercel.app/",
   },
   {
     id: 2,
+    name: "NextJS-Todo-app",
+    image: "/Next-todo.png",
+    github: "https://github.com/Sud-7/Next-redux-basic",
+    live: "https://next-redux-basic.vercel.app/userlist",
+  },
+  {
+    id: 3,
+    name: "React-TS-Todo",
+    image: "/TS.png",
+    github: "https://github.com/Sud-7/ToDo-App_FE",
+    live: "https://todoapp-ffc0d.web.app/",
+  },
+  {
+    id: 4,
+    name: "Redux-counter-app",
+    image: "/counter2.png",
+    github: "https://github.com/Sud-7/redux-counter-app",
+    live: "https://redux-counter-app-beta.vercel.app/",
+  },
+  {
+    id: 5,
     name: "Capticon- Video Captionning",
     image: "/Caption.png",
     github: "https://github.com/Sud-7/Capticon",
     live: "https://capticoninator.web.app/",
   },
   {
-    id: 3,
+    id: 6,
     name: "Weather Fetching",
     image: "/weather.png",
     github: "https://github.com/Sud-7/React_Weather",
     live: "https://react-weather-d1d32.web.app/",
   },
   {
-    id: 4,
+    id: 7,
     name: "Portfolio Creation",
     image: "Portfolio.png",
     github: "https://github.com/Sud-7/SJ-Technologies",
     live: "https://sj-portfolio-tech.web.app/",
-  },{
-    id: 5,
+  },
+  {
+    id: 8,
     name: "Skeleton Loader",
     image: "Skeleton.png",
     github: "https://github.com/Sud-7/Skeleton-loader",
     live: "https://new-pro-442bd.web.app/",
-  }
+  },
 ];

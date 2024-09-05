@@ -6,18 +6,22 @@ const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       {/* Container */}
-      <div className="max-w-[1200px] mx-8 md:mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-pink-600 font-bold md:text-4xl sm:text-3xl">
+      <div className="max-w-[1200px] mx-8 md:mx-auto px-8 flex flex-col justify-center h-full ">
+        <p className="text-rose-600 font-bold md:text-4xl sm:text-3xl">
           Hi, my name is
         </p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
+        <h1 className="text-4xl sm:text-7xl font-bold text-[#eef2ff]">
           Sudhashu Jha
         </h1>
-        <h2 className="text-4xl sm:text-7xl py-2 font-bold text-[#8892b0]">
-          I'm a Frontend Developer.
+        <h2 className="text-4xl sm:text-7xl py-2 font-bold text-[#eef2ff]">
+          I'm a {""}
+          <span className="text-rose-600 hover:scale-105 duration-300 animate-pulse">
+            FullStack Developer
+          </span>
+          .
         </h2>
         <p className="text-[#8892b0] py-2 max-w-[700px]">
-          I’m a Frontend developer specializing in building exceptional digital
+          I’m a FullStack developer specializing in building exceptional digital
           experiences. Currently, I do freelance Projects and learning Full
           Stack.
         </p>
